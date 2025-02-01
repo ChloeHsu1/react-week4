@@ -8,8 +8,6 @@ function App() {
   return (
     <>
       {isAuth ? <ProductPage setIsAuth={setIsAuth} /> : <LoginPage setIsAuth={setIsAuth} />}
-
-
     </>
   );
 }
